@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0432A95217E8B1A001E4EE0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F0432A92217E8B19001E4EE0 /* settings.png */; };
+		F0432A96217E8B1A001E4EE0 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0432A93217E8B1A001E4EE0 /* settings@2x.png */; };
+		F0432A97217E8B1A001E4EE0 /* settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0432A94217E8B1A001E4EE0 /* settings@3x.png */; };
+		F0432A99217E8C91001E4EE0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432A98217E8C91001E4EE0 /* SettingViewController.swift */; };
+		F0432A9B217EBB67001E4EE0 /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432A9A217EBB67001E4EE0 /* Lang.swift */; };
+		F0440DCB217AF54C005BC930 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0440DCA217AF54C005BC930 /* MyCollectionViewCell.swift */; };
+		F094B277217C4BF30081AB65 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F094B276217C4BF30081AB65 /* FavoriteViewController.swift */; };
+		F094B286217C768C0081AB65 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F094B27E217C76880081AB65 /* FMDatabaseAdditions.m */; };
+		F094B287217C768C0081AB65 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F094B27F217C76890081AB65 /* FMDatabaseQueue.m */; };
+		F094B288217C768C0081AB65 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F094B281217C768A0081AB65 /* FMDatabasePool.m */; };
+		F094B289217C768C0081AB65 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F094B282217C768B0081AB65 /* FMDatabase.m */; };
+		F094B28A217C768C0081AB65 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F094B284217C768B0081AB65 /* FMResultSet.m */; };
+		F094B28C217C87700081AB65 /* favorites.db in Resources */ = {isa = PBXBuildFile; fileRef = F094B28B217C87700081AB65 /* favorites.db */; };
+		F094B28E217D455A0081AB65 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F094B28D217D455A0081AB65 /* WebViewController.swift */; };
 		F0BBAAFA21784EF600A0FD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAAF921784EF600A0FD56 /* AppDelegate.swift */; };
 		F0BBAAFC21784EF600A0FD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAAFB21784EF600A0FD56 /* ViewController.swift */; };
 		F0BBAAFF21784EF600A0FD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAAFD21784EF600A0FD56 /* Main.storyboard */; };
@@ -14,6 +28,15 @@
 		F0BBAB0421784EF800A0FD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB0221784EF800A0FD56 /* LaunchScreen.storyboard */; };
 		F0BBAB0F21784EF800A0FD56 /* HakkyungLee_Lab4_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAB0E21784EF800A0FD56 /* HakkyungLee_Lab4_v2Tests.swift */; };
 		F0BBAB1A21784EF800A0FD56 /* HakkyungLee_Lab4_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAB1921784EF800A0FD56 /* HakkyungLee_Lab4_v2UITests.swift */; };
+		F0BBAB2D21784FDA00A0FD56 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2721784FD900A0FD56 /* heart.png */; };
+		F0BBAB2E21784FDA00A0FD56 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2821784FD900A0FD56 /* heart@2x.png */; };
+		F0BBAB2F21784FDA00A0FD56 /* Movie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2921784FDA00A0FD56 /* Movie@2x.png */; };
+		F0BBAB3021784FDA00A0FD56 /* heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2A21784FDA00A0FD56 /* heart@3x.png */; };
+		F0BBAB3121784FDA00A0FD56 /* Movie@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2B21784FDA00A0FD56 /* Movie@3x.png */; };
+		F0BBAB3221784FDA00A0FD56 /* Movie.png in Resources */ = {isa = PBXBuildFile; fileRef = F0BBAB2C21784FDA00A0FD56 /* Movie.png */; };
+		F0BBAB342178503800A0FD56 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAB332178503800A0FD56 /* Movie.swift */; };
+		F0BBAB362178504D00A0FD56 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBAB352178504D00A0FD56 /* APIResults.swift */; };
+		F0C1BEAE217C41E40091538F /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1BEAD217C41E40091538F /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0432A92217E8B19001E4EE0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		F0432A93217E8B1A001E4EE0 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		F0432A94217E8B1A001E4EE0 /* settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@3x.png"; sourceTree = "<group>"; };
+		F0432A98217E8C91001E4EE0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F0432A9A217EBB67001E4EE0 /* Lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
+		F0440DCA217AF54C005BC930 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F094B276217C4BF30081AB65 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		F094B27A217C76860081AB65 /* HakkyungLee-Lab4_v2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HakkyungLee-Lab4_v2-Bridging-Header.h"; sourceTree = "<group>"; };
+		F094B27B217C76870081AB65 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F094B27C217C76880081AB65 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F094B27D217C76880081AB65 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F094B27E217C76880081AB65 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F094B27F217C76890081AB65 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F094B280217C76890081AB65 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F094B281217C768A0081AB65 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F094B282217C768B0081AB65 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F094B283217C768B0081AB65 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F094B284217C768B0081AB65 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F094B285217C768C0081AB65 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F094B28B217C87700081AB65 /* favorites.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = favorites.db; sourceTree = "<group>"; };
+		F094B28D217D455A0081AB65 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F0BBAAF621784EF600A0FD56 /* HakkyungLee-Lab4_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HakkyungLee-Lab4_v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBAAF921784EF600A0FD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BBAAFB21784EF600A0FD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +91,15 @@
 		F0BBAB1521784EF800A0FD56 /* HakkyungLee-Lab4_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HakkyungLee-Lab4_v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BBAB1921784EF800A0FD56 /* HakkyungLee_Lab4_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HakkyungLee_Lab4_v2UITests.swift; sourceTree = "<group>"; };
 		F0BBAB1B21784EF800A0FD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BBAB2721784FD900A0FD56 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		F0BBAB2821784FD900A0FD56 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		F0BBAB2921784FDA00A0FD56 /* Movie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movie@2x.png"; sourceTree = "<group>"; };
+		F0BBAB2A21784FDA00A0FD56 /* heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@3x.png"; sourceTree = "<group>"; };
+		F0BBAB2B21784FDA00A0FD56 /* Movie@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Movie@3x.png"; sourceTree = "<group>"; };
+		F0BBAB2C21784FDA00A0FD56 /* Movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Movie.png; sourceTree = "<group>"; };
+		F0BBAB332178503800A0FD56 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F0BBAB352178504D00A0FD56 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
+		F0C1BEAD217C41E40091538F /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +134,18 @@
 				F0BBAB0D21784EF800A0FD56 /* HakkyungLee-Lab4_v2Tests */,
 				F0BBAB1821784EF800A0FD56 /* HakkyungLee-Lab4_v2UITests */,
 				F0BBAAF721784EF600A0FD56 /* Products */,
+				F094B283217C768B0081AB65 /* FMDatabase.h */,
+				F094B282217C768B0081AB65 /* FMDatabase.m */,
+				F094B27D217C76880081AB65 /* FMDatabaseAdditions.h */,
+				F094B27E217C76880081AB65 /* FMDatabaseAdditions.m */,
+				F094B285217C768C0081AB65 /* FMDatabasePool.h */,
+				F094B281217C768A0081AB65 /* FMDatabasePool.m */,
+				F094B280217C76890081AB65 /* FMDatabaseQueue.h */,
+				F094B27F217C76890081AB65 /* FMDatabaseQueue.m */,
+				F094B27C217C76880081AB65 /* FMDB.h */,
+				F094B27B217C76870081AB65 /* FMResultSet.h */,
+				F094B284217C768B0081AB65 /* FMResultSet.m */,
+				F094B27A217C76860081AB65 /* HakkyungLee-Lab4_v2-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +162,30 @@
 		F0BBAAF821784EF600A0FD56 /* HakkyungLee-Lab4_v2 */ = {
 			isa = PBXGroup;
 			children = (
+				F0432A92217E8B19001E4EE0 /* settings.png */,
+				F0432A93217E8B1A001E4EE0 /* settings@2x.png */,
+				F0432A94217E8B1A001E4EE0 /* settings@3x.png */,
+				F094B28B217C87700081AB65 /* favorites.db */,
 				F0BBAAF921784EF600A0FD56 /* AppDelegate.swift */,
 				F0BBAAFB21784EF600A0FD56 /* ViewController.swift */,
 				F0BBAAFD21784EF600A0FD56 /* Main.storyboard */,
 				F0BBAB0021784EF800A0FD56 /* Assets.xcassets */,
+				F0BBAB2721784FD900A0FD56 /* heart.png */,
+				F0BBAB2821784FD900A0FD56 /* heart@2x.png */,
+				F0BBAB2A21784FDA00A0FD56 /* heart@3x.png */,
+				F0BBAB2C21784FDA00A0FD56 /* Movie.png */,
+				F0BBAB2921784FDA00A0FD56 /* Movie@2x.png */,
+				F0BBAB2B21784FDA00A0FD56 /* Movie@3x.png */,
 				F0BBAB0221784EF800A0FD56 /* LaunchScreen.storyboard */,
 				F0BBAB0521784EF800A0FD56 /* Info.plist */,
+				F0BBAB332178503800A0FD56 /* Movie.swift */,
+				F0BBAB352178504D00A0FD56 /* APIResults.swift */,
+				F0440DCA217AF54C005BC930 /* MyCollectionViewCell.swift */,
+				F0C1BEAD217C41E40091538F /* DetailedViewController.swift */,
+				F094B276217C4BF30081AB65 /* FavoriteViewController.swift */,
+				F094B28D217D455A0081AB65 /* WebViewController.swift */,
+				F0432A98217E8C91001E4EE0 /* SettingViewController.swift */,
+				F0432A9A217EBB67001E4EE0 /* Lang.swift */,
 			);
 			path = "HakkyungLee-Lab4_v2";
 			sourceTree = "<group>";
@@ -193,6 +276,7 @@
 				TargetAttributes = {
 					F0BBAAF521784EF600A0FD56 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					F0BBAB0921784EF800A0FD56 = {
 						CreatedOnToolsVersion = 9.4;
@@ -229,8 +313,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BBAB3221784FDA00A0FD56 /* Movie.png in Resources */,
+				F0432A96217E8B1A001E4EE0 /* settings@2x.png in Resources */,
+				F0BBAB2D21784FDA00A0FD56 /* heart.png in Resources */,
 				F0BBAB0421784EF800A0FD56 /* LaunchScreen.storyboard in Resources */,
+				F0432A95217E8B1A001E4EE0 /* settings.png in Resources */,
+				F0BBAB3121784FDA00A0FD56 /* Movie@3x.png in Resources */,
+				F0BBAB2E21784FDA00A0FD56 /* heart@2x.png in Resources */,
+				F0BBAB2F21784FDA00A0FD56 /* Movie@2x.png in Resources */,
 				F0BBAB0121784EF800A0FD56 /* Assets.xcassets in Resources */,
+				F094B28C217C87700081AB65 /* favorites.db in Resources */,
+				F0BBAB3021784FDA00A0FD56 /* heart@3x.png in Resources */,
+				F0432A97217E8B1A001E4EE0 /* settings@3x.png in Resources */,
 				F0BBAAFF21784EF600A0FD56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +351,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0BBAAFC21784EF600A0FD56 /* ViewController.swift in Sources */,
+				F0440DCB217AF54C005BC930 /* MyCollectionViewCell.swift in Sources */,
+				F0C1BEAE217C41E40091538F /* DetailedViewController.swift in Sources */,
+				F094B277217C4BF30081AB65 /* FavoriteViewController.swift in Sources */,
 				F0BBAAFA21784EF600A0FD56 /* AppDelegate.swift in Sources */,
+				F0432A9B217EBB67001E4EE0 /* Lang.swift in Sources */,
+				F0432A99217E8C91001E4EE0 /* SettingViewController.swift in Sources */,
+				F0BBAB342178503800A0FD56 /* Movie.swift in Sources */,
+				F094B28A217C768C0081AB65 /* FMResultSet.m in Sources */,
+				F0BBAB362178504D00A0FD56 /* APIResults.swift in Sources */,
+				F094B288217C768C0081AB65 /* FMDatabasePool.m in Sources */,
+				F094B286217C768C0081AB65 /* FMDatabaseAdditions.m in Sources */,
+				F094B289217C768C0081AB65 /* FMDatabase.m in Sources */,
+				F094B28E217D455A0081AB65 /* WebViewController.swift in Sources */,
+				F094B287217C768C0081AB65 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 948MD57764;
 				INFOPLIST_FILE = "HakkyungLee-Lab4_v2/Info.plist";
@@ -439,6 +547,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cse438.HakkyungLee-Lab4-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HakkyungLee-Lab4_v2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 948MD57764;
 				INFOPLIST_FILE = "HakkyungLee-Lab4_v2/Info.plist";
@@ -457,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cse438.HakkyungLee-Lab4-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HakkyungLee-Lab4_v2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
