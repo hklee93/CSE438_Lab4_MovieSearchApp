@@ -34,7 +34,9 @@ It is a movie-searching app, which allows users to find information about movies
 > ![](4_2.gif)
 >  
 > The following demo shows how users can delete the movies from the Favorites and how users can watch a trailer in the app.  
+>   
 > ![](4_3.gif)  
 >  
 > The following demo shows how the search result changes based on the search filter.  
+>   
 > ![](4_3.gif)  
