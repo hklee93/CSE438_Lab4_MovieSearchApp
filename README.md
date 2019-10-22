@@ -39,4 +39,4 @@ It is a movie-searching app, which allows users to find information about movies
 >  
 > The following demo shows how the search result changes based on the search filter.  
 >   
-> ![](4_3.gif)  
+> ![](4_4.gif)  
